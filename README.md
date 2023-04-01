@@ -1,4 +1,4 @@
-# Assignment 1: Parsing a Sting
+# Assignment 1: Parsing a String
 
 Given a string that could take one of these two formats:
 
