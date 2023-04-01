@@ -13,9 +13,12 @@ Write a Python class satisfying the following requirements:
 
 1. The class is initialized with the input string as a class member
 2. Add a function to parse the string following these rules:
-  a. The substring `var` appears in the beginning is parsed out and assigned to a member of the class of string type
-  b. The `val1, val2, val3` are parsed out to floats and assigned as a tuple member of the class
-  c. Whatever comes after `val3,` should be combined as a subexpression separated by comma even if space is used as in `form2_str`.  The comma should be used to separate a pair of parameter-value which is defined as `x = something`, `y = something`, ..., etc.  The sub expression should be assigned to a class member of string type.
+
+    a. The substring `var` appears in the beginning is parsed out and assigned to a member of the class of string type
+  
+    b. The `val1, val2, val3` are parsed out to floats and assigned as a tuple member of the class
+    
+    c. Whatever comes after `val3,` should be combined as a subexpression separated by comma even if space is used as in `form2_str`.  The comma should be used to separate a pair of parameter-value which is defined as `x = something`, `y = something`, ..., etc.  The sub expression should be assigned to a class member of string type.
 2. Add a class member function to print the parsed parts
 2. The program should be tested out using some sample examples like:
   ```text
