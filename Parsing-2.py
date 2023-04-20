@@ -18,7 +18,7 @@ class parsingastring:
         custom_split = ip_split[1].replace(',','')
         custom_split.replace(" ",'')
         custom_split=custom_split.split()
-        Second_split = g #just splitting thrice to capture values
+        Second_split = custom_split 
         self.values = tuple(float(x) for x in Second_split[0:3]) #capturing the values
         Third_split = Second_split[3].split(" ") #finally splitting to capture the paramteres
         k = 3
